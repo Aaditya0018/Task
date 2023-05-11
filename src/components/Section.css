@@ -1,0 +1,58 @@
+.section {
+    position: relative;
+    background-image: url('https://honeybadgersco.com/static/media/ab3.cbc0f3a1c2e4edd246af.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    width: 100%;
+    height: 740px;
+    display: flex;
+  }
+  
+  .section-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section-content {
+    text-align: center;
+    color: #fff;
+    align-items: center;
+  }
+  
+  .section-heading {
+    font-size: 54px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: -60px;
+  }
+  
+  .section-subheading {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 400px;
+    letter-spacing: normal;
+    font-weight: 900px;
+    color: antiquewhite;
+  }
+  
+  .section-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #212529;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
